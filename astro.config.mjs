@@ -1,4 +1,10 @@
 import { defineConfig } from 'astro/config';
+import aws from 'astro-sst/lambda';
+import svelte from '@astrojs/svelte';
+import tailwind from '@astrojs/tailwind';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  output: 'server',
+  adapter: aws(),
+  integrations: [svelte(), tailwind()],
+});

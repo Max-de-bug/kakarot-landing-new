@@ -1,0 +1,14 @@
+2023-06-08T15:01:08.941Z  +3004ms [debug] Config loaded {"version":"2.11.18","cdkVersion":"2.79.1","constructsVersion":"10.1.156","config":{"name":"kakarot-landing","region":"eu-west-1","profile":"kakarot-landing","stage":"eliastazartes","ssmPrefix":"/sst/kakarot-landing/eliastazartes/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":257,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}]}},"outputs":{".sst.config.1686236466596.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":189}},"bytes":371}}},"paths":{"config":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing/sst.config.ts","root":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing","out":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing/.sst","artifacts":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing/.sst/artifacts"}}
+2023-06-08T15:01:09.055Z   +114ms [debug] Using AWS profile kakarot-landing
+2023-06-08T15:01:09.118Z    +63ms [debug] Created AWS client IoTClient
+2023-06-08T15:01:09.118Z     +0ms [debug] Getting IoT endpoint
+2023-06-08T15:01:09.273Z   +155ms [debug] Using IoT endpoint: a2tmhk6dhce3v3-ats.iot.eu-west-1.amazonaws.com
+2023-06-08T15:01:09.273Z     +0ms [debug] Initializing bootstrap context
+2023-06-08T15:01:09.274Z     +1ms [debug] Created AWS client CloudFormationClient
+2023-06-08T15:01:09.448Z   +174ms [debug] Loaded bootstrap status
+2023-06-08T15:01:09.449Z     +1ms [debug] Bootstrap context initialized {"version":"7","bucket":"sstbootstrap-euwest1facae36a-14lhqik0yzy8a"}
+2023-06-08T15:01:09.450Z     +1ms [debug] Created AWS client S3Client
+2023-06-08T15:01:09.511Z    +61ms [debug] Fetching all metadata
+2023-06-08T15:01:09.659Z   +148ms [debug] Fetched metadata from 0 stacks
+2023-06-08T15:01:09.660Z     +1ms [debug] Created AWS client SSMClient
+2023-06-08T15:01:09.669Z     +9ms [debug] IoT connected
