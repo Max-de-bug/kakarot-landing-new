@@ -1,14 +1,16 @@
-2023-06-09T15:30:30.351Z  +4630ms [debug] Config loaded {"version":"2.11.18","cdkVersion":"2.79.1","constructsVersion":"10.1.156","config":{"name":"kakarot-landing","region":"eu-west-1","profile":"kakarot-landing","stage":"eliastazartes","ssmPrefix":"/sst/kakarot-landing/eliastazartes/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":257,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}]}},"outputs":{".sst.config.1686324626914.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":189}},"bytes":371}}},"paths":{"config":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing/sst.config.ts","root":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing","out":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing/.sst","artifacts":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing/.sst/artifacts"}}
-2023-06-09T15:30:30.510Z   +159ms [debug] Using AWS profile kakarot-landing
-2023-06-09T15:30:30.554Z    +44ms [debug] Created AWS client IoTClient
-2023-06-09T15:30:30.554Z     +0ms [debug] Getting IoT endpoint
-2023-06-09T15:30:30.709Z   +155ms [debug] Using IoT endpoint: a2tmhk6dhce3v3-ats.iot.eu-west-1.amazonaws.com
-2023-06-09T15:30:30.709Z     +0ms [debug] Initializing bootstrap context
-2023-06-09T15:30:30.710Z     +1ms [debug] Created AWS client CloudFormationClient
-2023-06-09T15:30:30.884Z   +174ms [debug] Loaded bootstrap status
-2023-06-09T15:30:30.884Z     +0ms [debug] Bootstrap context initialized {"version":"7","bucket":"sstbootstrap-euwest1facae36a-14lhqik0yzy8a"}
-2023-06-09T15:30:30.885Z     +1ms [debug] Created AWS client S3Client
-2023-06-09T15:30:30.997Z   +112ms [debug] Fetching all metadata
-2023-06-09T15:30:31.145Z   +148ms [debug] IoT connected
-2023-06-09T15:30:31.151Z     +6ms [debug] Fetched metadata from 0 stacks
-2023-06-09T15:30:31.151Z     +0ms [debug] Created AWS client SSMClient
+2023-06-09T17:06:21.497Z  +2907ms [debug] Config loaded {"version":"2.11.18","cdkVersion":"2.79.1","constructsVersion":"10.1.156","config":{"name":"kakarot-landing","region":"eu-west-1","profile":"kakarot-landing","stage":"eliastazartes","ssmPrefix":"/sst/kakarot-landing/eliastazartes/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":257,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}]}},"outputs":{".sst.config.1686330379350.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":189}},"bytes":371}}},"paths":{"config":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing/sst.config.ts","root":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing","out":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing/.sst","artifacts":"/Users/eliastazartes/code/kkrt-labs/kakarot-landing/.sst/artifacts"}}
+2023-06-09T17:06:21.632Z   +135ms [debug] Using AWS profile kakarot-landing
+2023-06-09T17:06:21.668Z    +36ms [debug] Created AWS client IoTClient
+2023-06-09T17:06:21.668Z     +0ms [debug] Getting IoT endpoint
+2023-06-09T17:06:21.825Z   +157ms [debug] Using IoT endpoint: a2tmhk6dhce3v3-ats.iot.eu-west-1.amazonaws.com
+2023-06-09T17:06:21.825Z     +0ms [debug] Initializing bootstrap context
+2023-06-09T17:06:21.825Z     +0ms [debug] Created AWS client CloudFormationClient
+2023-06-09T17:06:21.985Z   +160ms [debug] Loaded bootstrap status
+2023-06-09T17:06:21.985Z     +0ms [debug] Bootstrap context initialized {"version":"7","bucket":"sstbootstrap-euwest1facae36a-14lhqik0yzy8a"}
+2023-06-09T17:06:21.985Z     +0ms [debug] Created AWS client S3Client
+2023-06-09T17:06:22.042Z    +57ms [debug] Fetching all metadata
+2023-06-09T17:06:22.194Z   +152ms [debug] IoT connected
+2023-06-09T17:06:22.259Z    +65ms [debug] Fetched metadata from 1 stacks
+2023-06-09T17:06:22.262Z     +3ms [debug] Created AWS client LambdaClient
+2023-06-09T17:06:22.434Z   +172ms [debug] Created AWS client STSClient
+2023-06-09T17:06:22.560Z   +126ms [debug] Failed to assume arn:aws:iam::548545078457:role/eliastazartes-kakarot-lan-siteServerFunctionServic-6CG3VX44O027. {"name":"AccessDenied","$fault":"client","$metadata":{"httpStatusCode":403,"requestId":"e9ce7f39-cb24-42bb-88a4-a3792f7d95de","attempts":1,"totalRetryDelay":0},"Type":"Sender","Code":"AccessDenied","message":"User: arn:aws:iam::548545078457:user/kakarot-landing is not authorized to perform: sts:AssumeRole on resource: arn:aws:iam::548545078457:role/eliastazartes-kakarot-lan-siteServerFunctionServic-6CG3VX44O027"}
