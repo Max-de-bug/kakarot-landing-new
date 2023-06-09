@@ -8,7 +8,7 @@
     <a href="/"
       ><img
         class="h-12 md:h-20 w-auto"
-        src="/public/kakarot-logo-nobg.png"
+        src="/kakarot-logo-nobg.png"
         alt="Kakarot Logo"
       /></a
     >

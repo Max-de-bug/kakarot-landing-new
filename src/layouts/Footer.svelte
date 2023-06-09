@@ -4,7 +4,9 @@
   const currentYear = new Date().getFullYear();
 </script>
 
-<footer class="navbar py-2 md:py-4 px-6 md:px-20 flex flex-row items-center">
+<footer
+  class="navbar py-2 md:py-4 px-6 md:px-20 flex flex-row items-center mt-16 md:mt-28"
+>
   <div class="navbar-start flex">
     <span>KKRT Labs - {currentYear} - &copy; All rights reserved </span>
   </div>

@@ -22,7 +22,7 @@
   ];
 </script>
 
-<div class="flex flex-col gap-4 md:gap-6 justify-center items-center">
+<div class="flex flex-col gap-4 md:gap-12 justify-center items-center">
   <h2 class="text-2xl md:text-5xl">
     Core <span class="text-primary">Principles</span>
   </h2>

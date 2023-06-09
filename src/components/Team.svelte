@@ -2,43 +2,43 @@
   import TeamMember from './TeamMember.svelte';
   const teamMembers = [
     {
-      img: '/public/team/elias.jpg',
+      img: '/team/elias.jpg',
       fullName: 'Elias Tazartes',
       role: 'CEO & Co-Founder',
       twitterHandle: 'etazou',
     },
     {
-      img: '/public/team/clement.jpeg',
+      img: '/team/clement.jpeg',
       fullName: 'Clement Walter',
       role: 'CTO & Co-Founder',
       twitterHandle: 'clementwalter',
     },
     {
-      img: '/public/team/danilo.jpeg',
+      img: '/team/danilo.jpeg',
       fullName: 'Danilo Kim',
       role: 'Ecosystem & Co-Founder',
       twitterHandle: 'danilowhk2',
     },
     {
-      img: '/public/team/abdel.jpeg',
+      img: '/team/abdel.jpeg',
       fullName: 'Abdelhamid Bakhta',
       role: 'Tech Advisor',
       twitterHandle: 'dimahledba',
     },
     {
-      img: '/public/team/mentor.jpeg',
+      img: '/team/mentor.jpeg',
       fullName: 'Mentor Reka',
       role: 'Financial Advisor',
       twitterHandle: 'mentornotpseudo',
     },
     {
-      img: '/public/team/greg.jpeg',
+      img: '/team/greg.jpeg',
       fullName: 'Gregory Edison',
       role: 'Core Dev',
       twitterHandle: 'greged93',
     },
     {
-      img: '/public/team/johann.jpeg',
+      img: '/team/johann.jpeg',
       fullName: 'Johann Bestowrous',
       role: 'Core Dev',
       twitterHandle: 'opinionsonline',

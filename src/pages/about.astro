@@ -2,6 +2,9 @@
 import Head from '../components/Head.astro';
 import Nav from '../layouts/Nav.svelte';
 import Footer from '../layouts/Footer.svelte';
+import Main from '../layouts/Main.svelte';
+import KakarotTxDiagram from '../components/KakarotTxDiagram.svelte';
+import KakarotAbstract from '../components/KakarotAbstract.svelte';
 
 const title = 'Learn more about Kakarot zkEVM';
 const description =
@@ -12,15 +15,24 @@ const description =
     <Head {title} {description} />
     <body class='m-0 p-0'>
         <Nav />
-        <main>
-            <h1>Welcome to <span class='text-gradient'>Astro</span></h1>
-            <p class='instructions'>
-                To get started, open the directory <code>src/pages</code> in your
-                project.<br />
-                <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message
-                above.
-            </p>
-        </main>
+        <Main>
+            <div
+                class='flex flex-col gap-4 md:gap-12 items-start justify-center'
+            >
+                <h1
+                    class='text-2xl md:text-4xl lg:text-5xl px-4 md:px-6 lg:px-8'
+                >
+                    Understanding <a
+                        class='text-accent underline'
+                        href='https://github.com/kkrt-labs/kakarot'
+                        target='_blank'
+                        rel='noopener noreferrer'>Kakarot</a
+                    >
+                </h1>
+                <KakarotAbstract />
+                <KakarotTxDiagram />
+            </div>
+        </Main>
         <Footer />
     </body>
 </html>

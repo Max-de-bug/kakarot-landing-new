@@ -7,9 +7,9 @@
 </script>
 
 <div
-  class="flex flex-col justify-start items-center gap-6 bg-neutral p-4 md:p-6 rounded-lg"
+  class="flex flex-col justify-start items-center gap-6 bg-neutral p-8 md:p-12 rounded-lg"
 >
-  <div class="p-4 md:p-8">
+  <div class="md:p-4">
     <Icon class="h-12 w-12 md:h-24 md:w-24" icon={iconId} />
   </div>
 
