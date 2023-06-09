@@ -1,20 +1,23 @@
 ---
-import Head from '../components/Head.svelte';
-import Nav from '../components/Nav.svelte';
+import Head from '../components/Head.astro';
+import Nav from '../layouts/Nav.svelte';
+import Footer from '../layouts/Footer.svelte';
+import Hero from '../components/Hero.svelte';
+import Cards from '../components/Cards.svelte';
+
+const title = 'Welcome to Kakarot zkEVM';
+const description =
+	'Kakarot zkEVM is bringing Ethereum to the Starknet ecosystem. Developers can deploy any Solidity (or EVM code) on Kakarot, as they would on Ethereum or Polygon. Their end-users are then able to interact with dApps with their usual toolchain (Metamask, Wallet connect, etc.).';
 ---
 
 <html lang='en'>
-	<Head title='Welcome to Kakarot zkEVM' />
+	<Head {title} {description} />
 	<body class='m-0 p-0'>
 		<Nav />
-		<main>
-			<h1>Welcome to <span class='text-gradient'>Astro</span></h1>
-			<p class='instructions'>
-				To get started, open the directory <code>src/pages</code> in your
-				project.<br />
-				<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message
-				above.
-			</p>
+		<main class='p-2 md:p-4 lg:p-8'>
+			<Hero />
+			<Cards />
 		</main>
+		<Footer />
 	</body>
 </html>

@@ -1,21 +1,24 @@
 <script lang="ts">
+  import Icon, { loadIcons } from '@iconify/svelte';
   export let img: string;
   export let fullName: string;
   export let role: string;
   export let twitterHandle: string;
-  import Icon, { loadIcons } from '@iconify/svelte';
   loadIcons(['fa:twitter']);
 </script>
 
-<div class="flex flex-col gap-2 md:gap-3">
-  <img class="h-48 w-48 md:h-64 md:w-64" src={img} alt="{fullName} - {role}" />
-  <p>
-    {fullName} - {role}
-    <a href="https://twitter.com/{twitterHandle}">
+<div class="flex flex-col gap-1 md:gap-1 w-48 md:w-64">
+  <img class="max-w-full rounded-lg" src={img} alt="{fullName} - {role}" />
+  <span>
+    {fullName}
+  </span>
+  <span>
+    {role}
+    <a class="px-1" href="https://twitter.com/{twitterHandle}">
       <Icon
-        class="h-2 lg:h-4 w-auto hover:text-accent active:text-accent"
+        class="inline align-text-top h-2/3 lg:h-4 w-auto hover:text-accent active:text-accent"
         icon="fa:twitter"
       />
     </a>
-  </p>
+  </span>
 </div>

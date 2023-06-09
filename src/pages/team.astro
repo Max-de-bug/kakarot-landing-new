@@ -1,18 +1,26 @@
 ---
-import Head from '../components/Head.svelte';
-import Nav from '../components/Nav.svelte';
-import Team from '../components/Team.svelte';
+import Head from '../components/Head.astro';
+import Nav from '../layouts/Nav.svelte';
+import TeamComponent from '../components/Team.svelte';
+import Footer from '../layouts/Footer.svelte';
+
+const title = 'Meet the Kakarot team';
+const description =
+    'Meet Clement, Elias, Danilo, Abdel, Mentor, Greg, Johann and so many more core team members of Kakarot';
 ---
 
 <html lang='en'>
-    <Head title='Meet the Kakarot team' />
+    <Head {title} {description} />
     <body class='m-0 p-0'>
         <Nav />
-        <main class='flex flex-col items-center justify-center p-4 md:p-12'>
+        <main
+            class='flex flex-col items-center justify-center p-4 md:p-12 gap-4 md:gap-8'
+        >
             <h1 class='text-2xl md:text-4xl'>
                 Meet our <span class='text-accent'>team</span>
             </h1>
-            <Team />
+            <TeamComponent />
         </main>
+        <Footer />
     </body>
 </html>
